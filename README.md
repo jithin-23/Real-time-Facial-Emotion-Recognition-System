@@ -16,7 +16,7 @@ To set up the project on your machine, follow these steps:
 1. **Clone the repository**:
     ```sh
     git clone https://github.com/jithin-23/Real-time-Facial-Emotion-Recognition-System.git
-    cd Facial-Emotion-Recognition-System
+    cd Real-time-Facial-Emotion-Recognition-System
     ```
 
 2. **Preparing Anaconda and TensorFlow**:
