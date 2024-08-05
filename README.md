@@ -15,7 +15,7 @@ To set up the project on your machine, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/your-username/Facial-Emotion-Recognition-System.git
+    git clone [[https://github.com/your-username/Facial-Emotion-Recognition-System.git](https://github.com/jithin-23/Real-time-Facial-Emotion-Recognition-System)](https://github.com/jithin-23/Real-time-Facial-Emotion-Recognition-System)
     cd Facial-Emotion-Recognition-System
     ```
 
