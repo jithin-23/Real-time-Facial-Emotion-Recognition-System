@@ -1,6 +1,3 @@
-Here's the formatted README file with the necessary edits:
-
----
 
 # Facial-Emotion-Recognition-System
 
