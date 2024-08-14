@@ -46,8 +46,9 @@ To set up the project on your machine, follow these steps:
     - The **Training** folder will contain all the photos from the 'train' subdirectory of FER 2013 dataset. The seven emotions are renamed to numbers from 0 to 6 representing the classes (Anger -> 0, Disgust -> 1, Fear -> 2, Happy -> 3, Sad -> 4, Surprise -> 5, and Neutral -> 6).
     - The **Test** folder will contain all photos from the 'test' subdirectory of FER 2013 dataset. The emotions are renamed in the same way.
     - Balance the classes as required since the FER2013 dataset has a highly imbalanced number of images across different classes.
+
   
-4. - Open Jupyter Notebook:
+4. **Open Jupyter Notebook:**
       
     ```sh
     jupyter notebook
