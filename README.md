@@ -21,37 +21,37 @@ To set up the project on your machine, follow these steps:
     ```sh
     conda create -n tf tensorflow
     conda activate tf
-    ```
-    
-    - Install required packages:
-      
-    ```sh
-    pip install -r requirements.txt
-    ```
-    
-    
+    ``` 
 
 2. **Clone the repository**:
     ```sh
     git clone https://github.com/jithin-23/Real-time-Facial-Emotion-Recognition-System.git
     ```
     - Change current working directory to 'Real-time-Facial-Emotion-Recognition-System'
+      
     ```sh
     cd Real-time-Facial-Emotion-Recognition-System
     ```
 
-    - Open Jupyter Notebook:
+     - Install required packages:
       
     ```sh
-    jupyter notebook
+    pip install -r requirements.txt
     ```
+    
 
-4. **Dataset Preparation**:
+3. **Dataset Preparation**:
     - The dataset used is FER2013. Download the dataset [here](https://www.kaggle.com/datasets/msambare/fer2013).
     - Create two folders named **Training** and **Test** in your project directory.
     - The **Training** folder will contain all the photos from the 'train' subdirectory of FER 2013 dataset. The seven emotions are renamed to numbers from 0 to 6 representing the classes (Anger -> 0, Disgust -> 1, Fear -> 2, Happy -> 3, Sad -> 4, Surprise -> 5, and Neutral -> 6).
     - The **Test** folder will contain all photos from the 'test' subdirectory of FER 2013 dataset. The emotions are renamed in the same way.
     - Balance the classes as required since the FER2013 dataset has a highly imbalanced number of images across different classes.
+  
+4. - Open Jupyter Notebook:
+      
+    ```sh
+    jupyter notebook
+    ```
 
 5. **Training Code**:
     - The code for training the model is provided in the file [01_Training_Code.ipynb](01_Training_Code.ipynb). (Recommend opening and running all files in Jupyter Notebook)
