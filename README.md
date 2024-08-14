@@ -29,19 +29,21 @@ To set up the project on your machine, follow these steps:
     pip install -r requirements.txt
     ```
     
-    - Open Jupyter Notebook:
-      
-    ```sh
-    jupyter notebook
-    ```
+    
 
 2. **Clone the repository**:
     ```sh
     git clone https://github.com/jithin-23/Real-time-Facial-Emotion-Recognition-System.git
     ```
-    Change current working directory to 'Real-time-Facial-Emotion-Recognition-System'
+    - Change current working directory to 'Real-time-Facial-Emotion-Recognition-System'
     ```sh
     cd Real-time-Facial-Emotion-Recognition-System
+    ```
+
+    - Open Jupyter Notebook:
+      
+    ```sh
+    jupyter notebook
     ```
 
 4. **Dataset Preparation**:
