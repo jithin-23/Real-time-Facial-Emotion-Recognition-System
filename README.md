@@ -40,8 +40,8 @@ Follow these steps to set up and run the project on your machine:
 ### 3. Dataset Preparation
 - The dataset used is **FER2013**. Download it [here](https://www.kaggle.com/datasets/msambare/fer2013).
 - Create two folders named **Training** and **Test** in your project directory.
-  - **Training Folder**: Contains all the images from the 'train' subdirectory of the FER 2013 dataset. Rename the emotions as numbers from 0 to 6 (e.g., Anger -> 0, Disgust -> 1, etc.).
-  - **Test Folder**: Contains all images from the 'test' subdirectory, with emotions renamed similarly.
+  - **Training Folder**: Contains all the images from the 'train' subdirectory of the FER 2013 dataset. Rename the emotions as numbers from 0 to 6 (Anger -> 0, Disgust -> 1, Fear -> 2, Happy -> 3, Sad -> 4, Surprise -> 5, Neutral -> 6).
+  - **Test Folder**: Contains all images from the 'test' subdirectory of the FER 2013 dataset, with emotions renamed similarly.
 - Balance the classes as necessary due to the imbalanced nature of the FER2013 dataset.
 - If using other datasets, ensure the class names align with those in the code.
 
