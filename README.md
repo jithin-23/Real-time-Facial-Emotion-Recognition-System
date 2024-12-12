@@ -19,7 +19,7 @@ Follow these steps to set up and run the project on your machine:
 - Install TensorFlow in a new environment and activate it: [TensorFlow with Conda Guide](https://docs.anaconda.com/working-with-conda/applications/tensorflow/)
   
     ```sh
-    conda create -n tf tensorflow
+    conda create -n tf tensorflow=2.10 python=3.10
     conda activate tf
     ``` 
 
